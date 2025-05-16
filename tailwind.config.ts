@@ -76,7 +76,21 @@ export default {
 					low: "#4CAF50",    // Green for low risk
 					medium: "#FFC107", // Amber for medium risk
 					high: "#F44336"    // Red for high risk
+				},
+				pastel: {
+					green: "#F2FCE2",
+					yellow: "#FEF7CD",
+					orange: "#FEC6A1",
+					purple: "#E5DEFF",
+					pink: "#FFDEE2",
+					peach: "#FDE1D3",
+					blue: "#D3E4FD",
+					gray: "#F1F0FB",
 				}
+			},
+			fontFamily: {
+				sans: ['Inter', 'system-ui', 'sans-serif'],
+				display: ['Inter', 'system-ui', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

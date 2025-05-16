@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -97,5 +98,44 @@
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
   }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+  }
+}
+
+/* Add custom styles for cards with pastel backgrounds */
+.pastel-card-green {
+  @apply bg-[#F2FCE2]/30 border border-[#F2FCE2];
+}
+
+.pastel-card-yellow {
+  @apply bg-[#FEF7CD]/30 border border-[#FEF7CD];
+}
+
+.pastel-card-orange {
+  @apply bg-[#FEC6A1]/30 border border-[#FEC6A1];
+}
+
+.pastel-card-purple {
+  @apply bg-[#E5DEFF]/30 border border-[#E5DEFF];
+}
+
+.pastel-card-pink {
+  @apply bg-[#FFDEE2]/30 border border-[#FFDEE2];
+}
+
+.pastel-card-peach {
+  @apply bg-[#FDE1D3]/30 border border-[#FDE1D3];
+}
+
+.pastel-card-blue {
+  @apply bg-[#D3E4FD]/30 border border-[#D3E4FD];
+}
+
+.pastel-card-gray {
+  @apply bg-[#F1F0FB]/30 border border-[#F1F0FB];
 }
