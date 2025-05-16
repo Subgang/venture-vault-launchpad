@@ -13,7 +13,7 @@ export const investments: Investment[] = [
     minInvestment: 1000,
     annualReturn: 7.5,
     duration: 36,
-    location: "San Francisco, CA",
+    location: "Berlin, Germany",
     logoUrl: "/placeholder.svg"
   },
   {
@@ -27,7 +27,7 @@ export const investments: Investment[] = [
     minInvestment: 5000,
     annualReturn: 12,
     duration: 48,
-    location: "Boston, MA",
+    location: "Munich, Germany",
     logoUrl: "/placeholder.svg"
   },
   {
@@ -41,7 +41,7 @@ export const investments: Investment[] = [
     minInvestment: 2500,
     annualReturn: 9,
     duration: 24,
-    location: "Austin, TX",
+    location: "Hamburg, Germany",
     logoUrl: "/placeholder.svg"
   },
   {
@@ -55,7 +55,7 @@ export const investments: Investment[] = [
     minInvestment: 1000,
     annualReturn: 6.5,
     duration: 36,
-    location: "Chicago, IL",
+    location: "Cologne, Germany",
     logoUrl: "/placeholder.svg"
   },
   {
@@ -69,7 +69,7 @@ export const investments: Investment[] = [
     minInvestment: 10000,
     annualReturn: 18,
     duration: 60,
-    location: "New York, NY",
+    location: "Frankfurt, Germany",
     logoUrl: "/placeholder.svg"
   },
   {
@@ -83,7 +83,7 @@ export const investments: Investment[] = [
     minInvestment: 7500,
     annualReturn: 15.5,
     duration: 48,
-    location: "Miami, FL",
+    location: "Düsseldorf, Germany",
     logoUrl: "/placeholder.svg"
   },
   {
@@ -97,7 +97,7 @@ export const investments: Investment[] = [
     minInvestment: 3000,
     annualReturn: 10.5,
     duration: 36,
-    location: "Portland, OR",
+    location: "Stuttgart, Germany",
     logoUrl: "/placeholder.svg"
   },
   {
@@ -111,7 +111,7 @@ export const investments: Investment[] = [
     minInvestment: 5000,
     annualReturn: 13.5,
     duration: 60,
-    location: "Seattle, WA",
+    location: "Leipzig, Germany",
     logoUrl: "/placeholder.svg"
   }
 ];
