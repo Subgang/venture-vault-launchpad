@@ -1,0 +1,117 @@
+
+import { Investment } from "@/types";
+
+export const investments: Investment[] = [
+  {
+    id: "sme-001",
+    name: "GreenTech Solutions",
+    description: "Eco-friendly technology company focused on sustainable energy solutions for small businesses.",
+    industry: "CleanTech",
+    riskLevel: "low",
+    targetAmount: 500000,
+    currentAmount: 325000,
+    minInvestment: 1000,
+    annualReturn: 7.5,
+    duration: 36,
+    location: "San Francisco, CA",
+    logoUrl: "/placeholder.svg"
+  },
+  {
+    id: "sme-002",
+    name: "HealthPlus Medical",
+    description: "Healthcare technology startup developing affordable diagnostic tools for rural clinics.",
+    industry: "Healthcare",
+    riskLevel: "medium",
+    targetAmount: 750000,
+    currentAmount: 375000,
+    minInvestment: 5000,
+    annualReturn: 12,
+    duration: 48,
+    location: "Boston, MA",
+    logoUrl: "/placeholder.svg"
+  },
+  {
+    id: "sme-003",
+    name: "LocalEats Delivery",
+    description: "Food delivery platform connecting local restaurants with customers, focusing on zero-waste packaging.",
+    industry: "Food & Beverage",
+    riskLevel: "medium",
+    targetAmount: 300000,
+    currentAmount: 210000,
+    minInvestment: 2500,
+    annualReturn: 9,
+    duration: 24,
+    location: "Austin, TX",
+    logoUrl: "/placeholder.svg"
+  },
+  {
+    id: "sme-004",
+    name: "EduTech Innovations",
+    description: "Digital learning platform providing affordable education resources to underserved communities.",
+    industry: "Education",
+    riskLevel: "low",
+    targetAmount: 400000,
+    currentAmount: 380000,
+    minInvestment: 1000,
+    annualReturn: 6.5,
+    duration: 36,
+    location: "Chicago, IL",
+    logoUrl: "/placeholder.svg"
+  },
+  {
+    id: "sme-005",
+    name: "FintechFlow",
+    description: "AI-powered financial management tool for small businesses to optimize cash flow and reduce costs.",
+    industry: "FinTech",
+    riskLevel: "high",
+    targetAmount: 1200000,
+    currentAmount: 450000,
+    minInvestment: 10000,
+    annualReturn: 18,
+    duration: 60,
+    location: "New York, NY",
+    logoUrl: "/placeholder.svg"
+  },
+  {
+    id: "sme-006",
+    name: "BlockPay Solutions",
+    description: "Blockchain-based payment processing system for cross-border transactions with minimal fees.",
+    industry: "Blockchain",
+    riskLevel: "high",
+    targetAmount: 850000,
+    currentAmount: 270000,
+    minInvestment: 7500,
+    annualReturn: 15.5,
+    duration: 48,
+    location: "Miami, FL",
+    logoUrl: "/placeholder.svg"
+  },
+  {
+    id: "sme-007",
+    name: "Urban Farming Co",
+    description: "Vertical farming startup using hydroponics to grow organic produce in urban environments.",
+    industry: "Agriculture",
+    riskLevel: "medium",
+    targetAmount: 600000,
+    currentAmount: 420000,
+    minInvestment: 3000,
+    annualReturn: 10.5,
+    duration: 36,
+    location: "Portland, OR",
+    logoUrl: "/placeholder.svg"
+  },
+  {
+    id: "sme-008",
+    name: "AI Analytics Pro",
+    description: "Machine learning platform helping SMEs derive actionable insights from their business data.",
+    industry: "Data Science",
+    riskLevel: "medium",
+    targetAmount: 900000,
+    currentAmount: 630000,
+    minInvestment: 5000,
+    annualReturn: 13.5,
+    duration: 60,
+    location: "Seattle, WA",
+    logoUrl: "/placeholder.svg"
+  }
+];
