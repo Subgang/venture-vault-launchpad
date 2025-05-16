@@ -63,19 +63,24 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Custom colors for our SME investment platform
+				// Custom colors for our SME investment platform with a more harmonious palette
+				beige: {
+					light: "#F9F5F2",
+					DEFAULT: "#F0EBE3",
+					dark: "#E7E0D6"
+				},
 				deep: {
 					blue: "#1A1F2C",
-					purple: "#3F7CAC"  // Changed from #6E59A5 to a soft blue
+					brown: "#5C4B3C"
 				},
 				highlight: {
-					purple: "#55A5D9",  // Changed from #9b87f5 to a lighter blue
-					green: "#4CAF50"
+					brown: "#8B7355",
+					green: "#6A8E7F"
 				},
 				risk: {
-					low: "#4CAF50",    // Green for low risk
-					medium: "#FFC107", // Amber for medium risk
-					high: "#F44336"    // Red for high risk
+					low: "#6A8E7F",    // Sage green for low risk
+					medium: "#C19A6B", // Tan for medium risk
+					high: "#AF5A51"    // Terracotta for high risk
 				},
 				pastel: {
 					green: "#F2FCE2",
@@ -89,8 +94,8 @@ export default {
 				}
 			},
 			fontFamily: {
-				sans: ['Inter', 'system-ui', 'sans-serif'],
-				display: ['Inter', 'system-ui', 'sans-serif'],
+				sans: ['Plus Jakarta Sans', 'system-ui', 'sans-serif'],
+				display: ['Playfair Display', 'Georgia', 'serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

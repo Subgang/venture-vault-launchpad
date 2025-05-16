@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -98,12 +100,12 @@
 
   body {
     @apply bg-background text-foreground;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Inter', sans-serif;
-    font-weight: 800;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
   }
 }
 
@@ -139,3 +141,4 @@
 .pastel-card-gray {
   @apply bg-[#F1F0FB]/30 border border-[#F1F0FB];
 }
+
