@@ -66,10 +66,10 @@ export default {
 				// Custom colors for our SME investment platform
 				deep: {
 					blue: "#1A1F2C",
-					purple: "#6E59A5"
+					purple: "#3F7CAC"  // Changed from #6E59A5 to a soft blue
 				},
 				highlight: {
-					purple: "#9b87f5",
+					purple: "#55A5D9",  // Changed from #9b87f5 to a lighter blue
 					green: "#4CAF50"
 				},
 				risk: {

@@ -29,7 +29,7 @@ export default function ConnectWallet({ className }: ConnectWalletProps) {
     <div className={className}>
       {isConnected ? (
         <div className="flex items-center gap-2">
-          <span className="bg-highlight-purple/10 text-highlight-purple py-1 px-3 rounded-full text-sm font-medium">
+          <span className="bg-highlight-green/10 text-highlight-green py-1 px-3 rounded-full text-sm font-medium">
             {walletAddress}
           </span>
           <Button
@@ -44,7 +44,7 @@ export default function ConnectWallet({ className }: ConnectWalletProps) {
         <Button 
           variant="default"
           onClick={connectWallet}
-          className="bg-highlight-purple hover:bg-highlight-purple/90"
+          className="bg-highlight-green hover:bg-highlight-green/90"
         >
           <Wallet className="mr-2 h-4 w-4" />
           Connect Wallet

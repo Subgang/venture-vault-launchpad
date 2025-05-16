@@ -24,7 +24,7 @@ export default function Navbar() {
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <div className="flex items-center gap-6">
           <a href="/" className="flex items-center gap-2 font-bold text-xl">
-            <span className="text-highlight-purple">Invest</span>
+            <span className="text-highlight-green">Invest</span>
             <span className={scrolled ? "text-deep-blue" : "text-white"}>SME</span>
           </a>
           

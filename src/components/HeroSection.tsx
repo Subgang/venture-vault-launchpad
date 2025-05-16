@@ -18,7 +18,7 @@ export default function HeroSection() {
           <div className="flex flex-wrap gap-4">
             <Button 
               size="lg" 
-              className="bg-deep-purple hover:bg-deep-purple/90"
+              className="bg-highlight-green hover:bg-highlight-green/90"
               onClick={() => document.getElementById('opportunities')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Explore Opportunities
